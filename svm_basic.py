@@ -3,7 +3,7 @@ from numpy import *
 from time import sleep
 #Use defaults for C: 1.0; toler: 0.001; maxIter: 50
 
-class svm_basic:
+class svm_basic(classifier):
     def __init__(self,dataMatIn, classLabels, C, toler):  # Initialize the structure with the parameters
         self.weights = None
         self.X = dataMatIn
