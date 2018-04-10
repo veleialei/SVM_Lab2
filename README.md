@@ -6,3 +6,5 @@ Change an implementation of the SMO algorithm for Support Vectors to a class in 
 
 Edit the code in https://github.com/pbharrin/machinelearninginaction3x/blob/master/Ch06/svmMLiA.py
 to let it fit into a larger framework, and apply to synthetic and linearly separable data
+
+run the test_svm_basic.py to see the result
